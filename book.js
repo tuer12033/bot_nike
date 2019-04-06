@@ -10,7 +10,7 @@ function delay(timeout) {
 (async () => {
     const browser = await puppeteer.launch({
         headless: false,
-        executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+        //executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
         //executablePath: '/Applications/Safari.app/Contents/MacOS/Safari',
         vargs: ['--disable-infobars','--no-sandbox', '--disable-setuid-sandbox']
         
